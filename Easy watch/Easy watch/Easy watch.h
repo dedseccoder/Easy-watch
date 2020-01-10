@@ -8,6 +8,7 @@
 class Timer
 {
 public:
+
 	int getSeconds() { return sec; };
 	int getMinutes() { return min; };
 	int getHours() { return hour; };
@@ -42,6 +43,7 @@ public:
 			std::cout << std::endl;
 		} while (update);
 	};
+
 private:
 	int sec, min, hour, day, month, year;
 	time_t pointer;
